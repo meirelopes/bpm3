@@ -14,5 +14,6 @@ public class Main {
         turma.adicionarPessoa(pessoa3);
 
         System.out.println(turma.getPessoas().size());
+        System.out.println(pessoa1.valido());
     }
 }
